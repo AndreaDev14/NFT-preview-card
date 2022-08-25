@@ -88,7 +88,8 @@ p{
 .card_img_container {
     position: relative;
     background-color: var(--Cyan);
-    border-radius: 1rem;
+    border-radius: 2rem;
+   
    
 
 }
@@ -100,6 +101,7 @@ p{
     border-radius: 1rem;
     backface-visibility: hidden;
     
+ 
   }
 
 
@@ -115,11 +117,12 @@ p{
     transition: .5s ease;
     border-radius: 1rem;
     
+    
   }
 
   .card_img_container:hover .card_image{
-    opacity: 0.3;
-    background-color:  var(--Cyan);
+    opacity: 0.5;
+    
     
    
   }
@@ -137,6 +140,7 @@ p{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    
 
   }
 
